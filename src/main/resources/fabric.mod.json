@@ -19,12 +19,11 @@
       "moe.hertz.chainlead.ChainLead"
     ]
   },
-  "mixins": [
-    "chain-lead.mixins.json"
-  ],
+  "mixins": [],
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "1.18.2"
+    "fabric-api": "*",
+    "minecraft": "*"
   }
 }
