@@ -18,7 +18,6 @@ public class ChainLead implements ModInitializer {
                 var pos = mob.getPos();
                 var min = pos.add(-7, -7, -7);
                 var max = pos.add(7, 7, 7);
-                player.sendMessage(new LiteralText("Use lead"), false);
                 var entities = world.getNonSpectatingEntities(MobEntity.class, new Box(min, max));
                 var handled = false;
                 for (var selected : entities) {
